@@ -1,6 +1,9 @@
 site_name: Инвайронментальное право
 docs_dir: .
 site_dir: ../environmental
+repo_url: https://github.com/askurashev/education
+repo_name: askurashev/education
+edit_uri: edit/main/
 theme:
   favicon: https://education.kurashev.com/favicon.ico
   name: material
@@ -8,6 +11,7 @@ theme:
   icon:
     repo: fontawesome/brands/git-alt
     logo: fontawesome/solid/graduation-cap
+    edit: material/pencil
   palette:
     primary: deep purple
   font:
@@ -47,6 +51,11 @@ extra:
             Спасибо за ответ!
   generator: false
 plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+      enabled: !ENV [CI, false]
+      type: date
+      fallback_to_build_date: true
   - search:
       lang: 
         - en

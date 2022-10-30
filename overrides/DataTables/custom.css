@@ -1,0 +1,75 @@
+   .navbar { --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-font-sans-serif: Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding: .75rem 0;
+    background-color: #7952b3;
+   }
+   
+
+
+.line > p {
+    text-indent: -7px;
+    margin-left: 6px;
+    margin-bottom: 2px;
+    color: #000;
+	font-size:0.9em;
+}
+
+.line > p:before  {content:"▪ ";}
+
+.line > p:first-of-type {text-indent:0;margin-left:0;margin-bottom: 0px;margin-top:6px}
+
+
+
+.cardheader {font-size: 0.8em;color: grey;white-space: normal;line-height: 1.1em;}
+.cardtitle {width:100%;margin-top:1em;float:left;font-weight:300;font-size:1.3em;white-space: normal;line-height: 1.2em;}
+.cardabstract {font-size: 0.85em; color: grey;margin-top: 1em;white-space: normal;line-height: 1.3em;width:100%;float:left;}
+.cardtags {width:100%;float:left;margin-top:1em;font-size:0.9em;white-space: normal;line-height: 1.2em;}
+.cardtags > span {font-weight:bold}
+.tagtitle {margin-bottom:0.2em;font-size:0.8em;font-weight:bold;white-space: normal;line-height: 1em;}
+
+.cardid {margin-top: -2px;font-size: 0.7em;float: right;padding: 0px 4px 1px 5px;border-radius: 4px;background: #563d7c94;color: white;}
+td {border-right: 1px solid rgb(222, 226, 230);}
+table {border-left: 1px solid rgb(222, 226, 230);}
+th {font-size:0.9em;border-right: 1px solid rgb(222, 226, 230);border-top: 1px solid rgb(222, 226, 230);}
+a {color: #7952b3; text-decoration: none; background-color: transparent;}
+.dtsp-panes  {background: #f0f0f0; border-radius: 5px 5px 0 0; padding: 15px!important;}
+.dtsp-panes:before  {content:"Фильтры";float:left;font-weight:600;}
+
+.dtsp-title {    margin-top: 16px;
+    position: absolute;
+    left: 25px;}

@@ -1,0 +1,164 @@
+site_name: Инвайронментальное право
+docs_dir: .
+site_dir: ../environmental
+theme:
+  favicon: https://education.kurashev.com/favicon.ico
+  name: material
+  language: ru
+  icon:
+    repo: fontawesome/brands/git-alt
+    logo: fontawesome/solid/graduation-cap
+  palette:
+    primary: deep purple
+  font:
+    text: Roboto
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.tabs
+#    - navigation.sections
+    - navigation.indexes
+#    - navigation.expand
+    - toc.follow
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+#    - toc.integrate
+copyright: © 2022 ASK
+extra:
+  analytics:
+    provider: google
+    property: G-W5JPTS1C6M
+    feedback:
+      title: Была ли эта страница полезной?
+      ratings:
+        - icon: material/thumb-up-outline
+          name: Да
+          data: 1
+          note: >-
+            Спасибо за ответ!
+        - icon: material/thumb-down-outline
+          name: Нет
+          data: 0
+          note: >-
+            Спасибо за ответ!
+  generator: false
+plugins:
+  - search:
+      lang: 
+        - en
+        - ru
+  - tags
+  - same-dir
+  - exclude:
+      glob:
+        - includes/*
+  - include_dir_to_nav:
+      flat: false
+  - glightbox
+markdown_extensions:
+#  - mdx_truly_sane_lists
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - tables
+  - pymdownx.arithmatex:
+      generic: true
+  - toc:
+      permalink: true
+      title: Оглавление
+      permalink: true
+      permalink_title: Anchor link to this section for reference
+      toc_depth: 3
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - md_in_html
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - footnotes
+  - pymdownx.betterem
+  - meta
+  - abbr
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - overrides/tex-mml-chtml.js
+  - overrides/tablesort.min.js
+  - overrides/DataTables/jQuery-3.6.0/jquery-3.6.0.js
+  - overrides/DataTables/DataTables-1.12.1/js/jquery.dataTables.min.js
+  - overrides/DataTables/DataTables-1.12.1/js/dataTables.bootstrap5.min.js
+  - overrides/DataTables/SearchPanes-2.0.2/js/dataTables.searchPanes.min.js
+  - overrides/DataTables/SearchPanes-2.0.2/js/searchPanes.bootstrap5.min.js
+  - overrides/DataTables/Select-1.4.0/js/dataTables.select.min.js
+  - overrides/DataTables/Buttons-2.2.3/js/dataTables.buttons.min.js
+  - overrides/DataTables/Buttons-2.2.3/js/buttons.bootstrap5.min.js
+  - overrides/DataTables/Buttons-2.2.3/js/buttons.colVis.min.js
+  - overrides/DataTables/SearchBuilder-1.3.4/js/dataTables.searchBuilder.min.js
+  - overrides/DataTables/DateTime-1.1.2/js/dataTables.dateTime.min.js
+  - overrides/extra.js
+  - overrides/jquery.mark.min.js
+  - overrides/datatables.mark.js
+  - overrides/analytics.js
+extra_css:
+  - overrides/DataTables/Bootstrap-5-5.1.3/css/bootstrap.min.css
+  - overrides/DataTables/DataTables-1.12.1/css/dataTables.bootstrap5.min.css
+  - overrides/DataTables/SearchPanes-2.0.2/css/searchPanes.bootstrap5.min.css
+  - overrides/DataTables/Select-1.4.0/css/select.bootstrap5.min.css
+  - overrides/DataTables/Buttons-2.2.3/css/buttons.bootstrap5.min.css
+  - overrides/DataTables/SearchBuilder-1.3.4/css/searchBuilder.dataTables.min.css
+  - overrides/DataTables/DateTime-1.1.2/css/dataTables.dateTime.min.css
+  - overrides/extra.css
+
+# Page tree
+nav:
+  - Главная: index.md
+  - Учебный курс:
+    - Учебный курс/index.md
+    - Общая часть:
+      - Учебный курс/Общая часть/index.md
+      - Учебный курс/Общая часть/Инвайронментальные права и обязанности.md
+      - Учебный курс/Общая часть/Источники инвайронментального права.md
+      - Учебный курс/Общая часть/Юридическая ответственность за инвайронментальные правонарушения.md
+    - Особенная часть:
+      - Учебный курс/Особенная часть/index.md
+      - Учебный курс/Особенная часть/Эколого-правовой режим использования и охраны земель.md
+      - Учебный курс/Особенная часть/Эколого-правовой режим использования и охраны недр.md
+      - Учебный курс/Особенная часть/Эколого-правовой режим использования и охраны воды.md
+      - Учебный курс/Особенная часть/Эколого-правовой режим использования и охраны лесов.md
+      - Учебный курс/Особенная часть/Эколого-правовой режим охраны атмосферного воздуха.md
+      - Учебный курс/Особенная часть/Эколого-правовой режим использования и охраны животного мира.md
+      - Учебный курс/Особенная часть/Эколого-правовой режим «морских территорий».md
+      - Учебный курс/Особенная часть/Эколого-правовой режим особо охраняемых природных территорий.md
+      - Учебный курс/Особенная часть/Эколого-правовое регулирование обращения с отходами.md
+    - Специальная часть:
+      - Учебный курс/Специальная часть/index.md
+      - Учебный курс/Специальная часть/Зарубежное инвайронментальное право:
+        - Учебный курс/Специальная часть/Зарубежное инвайронментальное право/index.md
+      - Учебный курс/Специальная часть/Международное инвайронментальное право:
+        - Учебный курс/Специальная часть/Международное инвайронментальное право/index.md
+  - Приложения:
+    - Приложения/index.md
+  - Словарь: Словарь
+  - Законодательство:
+    - Законодательство/index.md
+    - Законодательство/Дореволюционное законодательство (–1917)/index.md
+    - Законодательство/Советское законодательство (1917–1991)/index.md
+    - Законодательство/Российское законодательство (1991–)/index.md
+    - Законодательство/Международное законодательство/index.md
+  - Библиотека:
+    - Библиотека/index.md

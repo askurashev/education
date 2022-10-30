@@ -159,9 +159,4 @@ figcaption {
   display: none;
 }
 
-.md-typeset {
-  -webkit-print-color-adjust: exact;
-  color-adjust: exact;
-  font-size: .8rem!important;
-  line-height: 1.6!important;
-}
+.md-source:hover {color:white}

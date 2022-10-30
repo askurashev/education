@@ -11,7 +11,7 @@ theme:
   icon:
     repo: fontawesome/brands/git-alt
     logo: fontawesome/solid/graduation-cap
-    edit: material/pencil
+    edit: material/file-document-edit-outline
   palette:
     primary: deep purple
   font:
@@ -53,9 +53,6 @@ extra:
 plugins:
   - git-revision-date-localized:
       enable_creation_date: true
-      enabled: !ENV [CI, false]
-      type: date
-      fallback_to_build_date: true
   - search:
       lang: 
         - en

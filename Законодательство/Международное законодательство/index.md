@@ -1,3 +1,3 @@
 # Международное законодательство
 
-<table id="laws-international" class="table"  style="width:100%"></table>
+<table id="lawsinternational" class="table"  style="width:100%"></table>

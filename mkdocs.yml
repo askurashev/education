@@ -119,7 +119,6 @@ extra_javascript:
   - overrides/extra.js
   - overrides/jquery.mark.min.js
   - overrides/datatables.mark.js
-  - overrides/analytics.js
 extra_css:
   - overrides/DataTables/Bootstrap-5-5.1.3/css/bootstrap.min.css
   - overrides/DataTables/DataTables-1.12.1/css/dataTables.bootstrap5.min.css

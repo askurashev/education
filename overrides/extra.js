@@ -236,9 +236,9 @@
 
 
         $(document).ready(function () {
-            var table = $('#laws-international').DataTable({
+            var table = $('#lawsinternational').DataTable({
                 "ajax": '../../../environmental-data/data.txt',
-                data: laws-international, // id таблицы
+                data: lawsinternational, // id таблицы
 			    order: [[0, "desc"]],
 				mark: true,
                  searchPanes: {columns: [1, 8],

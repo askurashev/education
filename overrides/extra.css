@@ -45,9 +45,9 @@ th {font-size:0.9em;border-right: 1px solid rgb(222, 226, 230);border-top: 1px s
     position: absolute;
     left: 25px;}
 		
-	#data_paginate > ul {list-style-type: none;display: inline-flex;}
+	#data_paginate > ul, #lawsprerevolution_paginate > ul, #lawsrussia_paginate > ul, #lawssovetunion_paginate > ul {list-style-type: none;display: inline-flex;}
 	
-	#data_paginate > ul > li {margin-left: 0;}
+	#data_paginate > ul > li, #lawsprerevolution_paginate > ul > li, #lawsrussia_paginate > ul > li, #lawssovetunion_paginate > ul > li {margin-left: 0;}
 	
 	.dtsp-caret {margin-left: -5px;}
 	
